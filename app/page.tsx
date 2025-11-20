@@ -80,7 +80,7 @@ const projects: Project[] = [
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-black">
+    <main className="min-h-screen bg-gradient-to-b from-gray-900 to-gray-800">
       {/* Navigation */}
       <nav className='sticky top-0 z-50 bg-white/80 dark:bg-gray-900/80 backdrop-blur-md border-b border-gray-200 dark:border-gray-700'>
         <div className='max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 py-6 flex justify-between items-center'>
@@ -151,7 +151,7 @@ export default function Home() {
       </section>
 
       {/* Skills Section */}
-      <section className='max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 py-16 lg:py-24'>
+      <section className='max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 py-16 lg:py-24 bg-gray-900/50'>
         <div className='text-center mb-12'>
           <h3 className='text-4xl md:text-5xl font-bold mb-4 text-gray-800 dark:text-gray-200'>Skills & Technologies</h3>
           <p className='text-lg md:text-xl text-gray-600 dark:text-gray-400 max-w-2xl mx-auto'>
@@ -171,7 +171,7 @@ export default function Home() {
       </section>
 
       {/* Services Section */}
-      <section className='max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 py-16 lg:py-24'>
+      <section className='max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 py-16 lg:py-24 bg-gray-900/50'>
         <div className='text-center mb-12'>
           <h3 className='text-4xl md:text-5xl font-bold mb-4 text-gray-800 dark:text-gray-200'>Work Arrangements</h3>
           <p className='text-lg md:text-xl text-gray-600 dark:text-gray-400 max-w-3xl mx-auto'>
