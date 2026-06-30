@@ -40,7 +40,8 @@ const projects: Project[] = [
     title: 'Quality Courier Services (QCS Delivery)',
     description: 'A Ghanaian local courier service app that allows users to make orders and get them delivered across cities. Streamlined delivery management for efficient logistics and customer satisfaction.',
     links: [
-      { platform: 'iOS', url: 'https://apps.apple.com/gh/app/qcs-delivery/id6477783811', icon: <AiFillApple className="text-2xl" /> }
+      { platform: 'iOS', url: 'https://apps.apple.com/gh/app/qcs-delivery/id6477783811', icon: <AiFillApple className="text-2xl" /> },
+      { platform: 'Android', url: 'https://play.google.com/store/apps/details?id=com.qcsghana.qcs', icon: <AiFillAndroid className="text-2xl" /> }
     ],
     category: 'Logistics'
   },
