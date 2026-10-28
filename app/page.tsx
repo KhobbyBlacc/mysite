@@ -20,6 +20,15 @@ interface Project {
 
 const projects: Project[] = [
   {
+    title: 'Databank Group',
+    description: 'The Databank Mobile App provides users with a convenient way to access and manage their investments directly from their mobile devices. It helps users stay connected to their investments, monitor portfolio performance, view account information, and access available investment services anytime, anywhere, offering a more flexible and accessible investment management experience.',
+    links: [
+      { platform: 'iOS', url: 'https://apps.apple.com/us/app/databank-group/id6764365058', icon: <AiFillApple className="text-2xl" /> },
+      { platform: 'Android', url: 'https://play.google.com/store/apps/details?id=com.databankgroup.mobileapp', icon: <AiFillAndroid className="text-2xl" /> }
+    ],
+    category: 'Finance'
+  },
+  {
     title: 'Telical',
     description: 'A comprehensive health and appointment app for virtual consultations with doctors and specialists. Features real-time tracking of vital signs, AI-powered anomaly detection, medication management, and emergency response system.',
     links: [
@@ -160,7 +169,7 @@ export default function Home() {
           </p>
         </div>
         <div className='flex flex-wrap justify-center gap-4 mt-12'>
-          {['Flutter', 'Dart', 'React Native', 'Next.js', 'React.js', 'FastAPI', 'PostgreSQL', 'Networking', 'Python'].map((skill) => (
+          {['Asp .NET', 'Flutter', 'Dart', 'React Native', 'Next.js', 'React.js', 'FastAPI', 'PostgreSQL', 'Networking', 'Python'].map((skill) => (
             <span
               key={skill}
               className='px-6 py-3 bg-gradient-to-r from-cyan-500 to-teal-500 text-white rounded-full text-lg font-semibold shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105'
